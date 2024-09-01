@@ -1,0 +1,1 @@
+test<?php /**PATH E:\laragon\www\RedHat\resources\views/welcome.blade.php ENDPATH**/ ?>
