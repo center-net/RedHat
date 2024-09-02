@@ -32,7 +32,7 @@
                    
                 </ul>
                 <ul class="navbar-nav ml-auto">
-                    <livewire:frontend.carts />
+                    {{-- <livewire:frontend.carts /> --}}
 
                     @guest
                         <li class="nav-item">
@@ -42,15 +42,15 @@
                         </li>
                     @else
                         <li class="nav-item dropdown">
-                            <livewire:frontend.header.notification-component />
+                            {{-- <livewire:frontend.header.notification-component /> --}}
                         </li>
 
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" id="authDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                {{ auth()->user()->full_name  }}
+                                {{ auth()->user()->name  }}
                             </a>
                             <div class="dropdown-menu mt-3" aria-labelledby="authDropdown">
-                                <a href="{{ route('customer.dashboard') }}" class="dropdown-item border-0">Dashboard</a>
+                                <a href="{{ route('admin.index') }}" class="dropdown-item border-0">Dashboard</a>
                                 <a href="javascript:void(0);" class="dropdown-item border-0" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
                                 <form action="{{ route('logout') }}" method="post" id="logout-form" class="d-none">
                                     @csrf

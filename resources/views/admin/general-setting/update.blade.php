@@ -50,7 +50,7 @@
             @if ($photo) 
                <img class="custom_img" src="{{ $photo->temporaryUrl() }}">
             @else
-               <img class="custom_img" src="{{ asset('/uploads/admin/generalsettings').'/'.$generalsettings->photo}}" alt="">
+               <img class="custom_img" src="{{ asset('/uploads/generalsettings').'/'.$generalsettings->photo}}" alt="">
             @endif
           </div>
       </div>
@@ -70,7 +70,7 @@
             @if ($logo) 
                <img class="custom_img" src="{{ $logo->temporaryUrl() }}">
             @else
-               <img class="custom_img" src="{{ asset('/uploads/admin/generalsettings').'/'.$generalsettings->logo}}" alt="">
+               <img class="custom_img" src="{{ asset('/uploads/generalsettings').'/'.$generalsettings->logo}}" alt="">
             @endif
           </div>
       </div>

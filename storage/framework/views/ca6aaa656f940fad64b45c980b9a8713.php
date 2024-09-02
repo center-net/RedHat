@@ -8,7 +8,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
-      <link rel="icon" href="<?php echo e(asset('/uploads/admin/generalsettings/logo.jpg')); ?>">
+      <link rel="icon" href="<?php echo e(asset('/uploads/generalsettings/logo.jpg')); ?>">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <title><?php echo $__env->yieldContent('title'); ?></title>
       <!-- Font Awesome Icons -->

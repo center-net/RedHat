@@ -8,7 +8,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="csrf-token" content="{{ csrf_token() }}">
-      <link rel="icon" href="{{ asset('/uploads/admin/generalsettings/logo.jpg')}}">
+      <link rel="icon" href="{{ asset('/uploads/generalsettings/logo.jpg')}}">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <title>@yield('title')</title>
       <!-- Font Awesome Icons -->

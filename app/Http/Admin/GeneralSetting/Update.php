@@ -51,14 +51,14 @@ class Update extends Component
         $data = $this->validate();
         if($this->photo){
             $data['photo']='photo.'.$this->photo->extension();
-            $this->photo->storeAs('admin/generalsettings', 'photo.'.$this->photo->extension(),'public');
+            $this->photo->storeAs('generalsettings', 'photo.'.$this->photo->extension(),'public');
             $this->dispatch('refreshData')->to(Show::class);
         }else{
             $data['photo']=$this->generalsettings->photo;
         }
         if($this->logo){
             $data['logo']='logo.'.$this->logo->extension();
-            $this->logo->storeAs('admin/generalsettings', 'logo.'.$this->logo->extension(),'public');
+            $this->logo->storeAs('generalsettings', 'logo.'.$this->logo->extension(),'public');
             $this->dispatch('refreshData')->to(Show::class);
         }else{
             $data['logo']=$this->generalsettings->logo;    

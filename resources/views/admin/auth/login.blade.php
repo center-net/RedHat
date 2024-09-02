@@ -32,7 +32,7 @@
       </style>
       
    </head>
-   <body class="hold-transition login-page" style="background-image: url({{ asset('/uploads/admin/generalsettings/photo.jpg')}}) ;background-size: 100%;background-repeate:ni-repeate;">
+   <body class="hold-transition login-page" style="background-image: url({{ asset('/uploads/generalsettings/photo.jpg')}}) ;background-size: 100%;background-repeate:ni-repeate;">
       <div class="login-box">
  
          <!-- /.login-logo -->

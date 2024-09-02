@@ -32,7 +32,7 @@
       </style>
       @livewireStyles
    </head>
-   <body class="hold-transition login-page" style="background-image: url({{ asset('assets/admin/imgs/login.jpeg') }}) ;background-size: 100%;background-repeate:ni-repeate;">
+   <body class="hold-transition login-page" style="background-image: url({{ asset('uploads/generalsettings/login.jpeg') }}) ;background-size: 100%;background-repeate:ni-repeate;">
       <div class="login-box">
  
          <!-- /.login-logo -->

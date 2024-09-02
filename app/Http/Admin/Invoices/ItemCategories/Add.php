@@ -5,17 +5,18 @@ namespace App\Http\Admin\Invoices\ItemCategories;
 use App\Models\BillingCategorie;
 use App\Models\ItemCategorie;
 use Livewire\Attributes\Validate;
+use Livewire\WithFileUploads;
 use Livewire\Component;
 
 class Add extends Component
 {
-    public $ItemCategorie, $is_master = 0, $name, $active, $IsMaster, $billing_categories_id;
+    use WithFileUploads;
+    public $ItemCategorie, $image, $name, $active, $billing_categories_id;
 
     #[Validate([
         'name'                => 'required|string|unique:item_categories,name',
         'active'              => 'required|boolean',
-        'is_master'           =>  '',
-        'billing_categories_id'           =>  'required',
+        'image'              => 'required|image',
         ], attribute: [
             'active'            => 'حالة التفعيل',
     ])]
@@ -30,15 +31,17 @@ class Add extends Component
 
         $data = $this->validate();
         
-        // dd($data);
+        if($this->image){
+            $data['image']= $this->name.'.'.$this->image->extension();
+            $this->image->storeAs('itemCategories', $this->name.'.'.$this->image->extension(),'public');
+            $this->dispatch('refreshData')->to(Data::class);
+        }
         $this->ItemCategorie::create($data);
 
         $this->reset([
             'name',
-            'is_master',
             'active',
-            'IsMaster',
-            'billing_categories_id',
+            'image',
         ]);
         $this->dispatch('AddModelToggle');
         $this->dispatch('refreshData')->to(Data::class);

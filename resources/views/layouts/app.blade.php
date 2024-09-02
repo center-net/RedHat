@@ -22,13 +22,13 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('frontend/vendor/lightbox2/css/lightbox.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/vendor/nouislider/nouislider.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/vendor/bootstrap-select/css/bootstrap-select.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/vendor/owl.carousel2/assets/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/vendor/owl.carousel2/assets/owl.theme.default.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/css/style.default.css') }}" id="theme-stylesheet">
-    <link rel="stylesheet" href="{{ asset('frontend/css/custom.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/vendor/lightbox2/css/lightbox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/vendor/nouislider/nouislider.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/vendor/bootstrap-select/css/bootstrap-select.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/vendor/owl.carousel2/assets/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/vendor/owl.carousel2/assets/owl.theme.default.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.default.css') }}" id="theme-stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/custom.css') }}">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -49,12 +49,12 @@
 
       <!-- JavaScript files-->
       <script src="{{ asset('js/app.js') }}"></script>
-      <script src="{{ asset('frontend/vendor/lightbox2/js/lightbox.min.js') }}"></script>
-      <script src="{{ asset('frontend/vendor/nouislider/nouislider.min.js') }}"></script>
-      <script src="{{ asset('frontend/vendor/bootstrap-select/js/bootstrap-select.min.js') }}"></script>
-      <script src="{{ asset('frontend/vendor/owl.carousel2/owl.carousel.min.js') }}"></script>
-      <script src="{{ asset('frontend/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js') }}"></script>
-      <script src="{{ asset('frontend/js/front.js') }}"></script>
+      <script src="{{ asset('assets/frontend/vendor/lightbox2/js/lightbox.min.js') }}"></script>
+      <script src="{{ asset('assets/frontend/vendor/nouislider/nouislider.min.js') }}"></script>
+      <script src="{{ asset('assets/frontend/vendor/bootstrap-select/js/bootstrap-select.min.js') }}"></script>
+      <script src="{{ asset('assets/frontend/vendor/owl.carousel2/owl.carousel.min.js') }}"></script>
+      <script src="{{ asset('assets/frontend/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js') }}"></script>
+      <script src="{{ asset('assets/frontend/js/front.js') }}"></script>
       @yield('script')
 </body>
 </html>

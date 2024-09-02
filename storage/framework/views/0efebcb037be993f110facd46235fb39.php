@@ -3,7 +3,7 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
-<div class="row" style="background-image: url(<?php echo e(asset('/uploads/admin/generalsettings/photo.jpg')); ?>) ;background-size:cover;background-repeate:ni-repeate; min-height:600px;">
+<div class="row" style="background-image: url(<?php echo e(asset('/uploads/generalsettings/photo.jpg')); ?>) ;background-size:cover;background-repeate:ni-repeate; min-height:600px;">
     <div class="col-lg-3 col-6">
         <a href="<?php echo e(route('admin.general')); ?>" class="small-box-footer">
         <!-- small box -->

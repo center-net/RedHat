@@ -21,7 +21,7 @@
           <td class="width30">صورة الخلفية</td>
           <td >
              <div class="image">
-                <img class="custom_img" src="{{ asset('/uploads/admin/generalsettings').'/'.$generalsetting->photo}}"  alt="صورة الخلفية">       
+                <img class="custom_img" src="{{ asset('/uploads/generalsettings').'/'.$generalsetting->photo}}"  alt="صورة الخلفية">       
              </div>
           </td>
        </tr>
@@ -29,7 +29,7 @@
           <td class="width30">لوجو  الشركة</td>
           <td >
              <div class="image">
-                <img class="custom_img" src="{{ asset('/uploads/admin/generalsettings').'/'.$generalsetting->logo}}"  alt="لوجو الشركة">       
+                <img class="custom_img" src="{{ asset('/uploads/generalsettings').'/'.$generalsetting->logo}}"  alt="لوجو الشركة">       
              </div>
           </td>
        </tr>

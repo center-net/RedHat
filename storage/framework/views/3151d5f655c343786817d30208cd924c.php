@@ -94,7 +94,7 @@ unset($__errorArgs, $__bag); ?><!--[if ENDBLOCK]><![endif]-->
             <!--[if BLOCK]><![endif]--><?php if($photo): ?> 
                <img class="custom_img" src="<?php echo e($photo->temporaryUrl()); ?>">
             <?php else: ?>
-               <img class="custom_img" src="<?php echo e(asset('/uploads/admin/generalsettings').'/'.$generalsettings->photo); ?>" alt="">
+               <img class="custom_img" src="<?php echo e(asset('/uploads/generalsettings').'/'.$generalsettings->photo); ?>" alt="">
             <?php endif; ?><!--[if ENDBLOCK]><![endif]-->
           </div>
       </div>
@@ -121,7 +121,7 @@ unset($__errorArgs, $__bag); ?><!--[if ENDBLOCK]><![endif]-->
             <!--[if BLOCK]><![endif]--><?php if($logo): ?> 
                <img class="custom_img" src="<?php echo e($logo->temporaryUrl()); ?>">
             <?php else: ?>
-               <img class="custom_img" src="<?php echo e(asset('/uploads/admin/generalsettings').'/'.$generalsettings->logo); ?>" alt="">
+               <img class="custom_img" src="<?php echo e(asset('/uploads/generalsettings').'/'.$generalsettings->logo); ?>" alt="">
             <?php endif; ?><!--[if ENDBLOCK]><![endif]-->
           </div>
       </div>

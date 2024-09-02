@@ -14,8 +14,7 @@ return new class extends Migration
         Schema::create('item_categories', function (Blueprint $table) {
             $table->id();
             $table->string('name')->unique();
-            $table->boolean('is_master')->default(0);
-            $table->foreignId('billing_categories_id')->constrained()->cascadeOnDelete();
+            $table->string('image')->default(0);
             $table->boolean('active')->default(1);
             $table->timestamps();
         });

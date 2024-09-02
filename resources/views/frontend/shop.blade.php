@@ -140,7 +140,7 @@
                                 <div class="product text-center">
                                     <div class="mb-3 position-relative">
                                         <div class="badge text-white badge-"></div><a class="d-block"
-                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('frontend/img/product-1.jpg')}}'
+                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('assets/frontend/img/product-1.jpg')}}'
                                                 alt="..."></a>
                                         <div class="product-overlay">
                                             <ul class="mb-0 list-inline">
@@ -164,7 +164,7 @@
                                 <div class="product text-center">
                                     <div class="mb-3 position-relative">
                                         <div class="badge text-white badge-"></div><a class="d-block"
-                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('frontend/img/product-2.jpg')}}'
+                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('assets/frontend/img/product-2.jpg')}}'
                                                 alt="..."></a>
                                         <div class="product-overlay">
                                             <ul class="mb-0 list-inline">
@@ -188,7 +188,7 @@
                                 <div class="product text-center">
                                     <div class="mb-3 position-relative">
                                         <div class="badge text-white badge-primary">New</div><a class="d-block"
-                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('frontend/img/product-3.jpg')}}'
+                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('assets/frontend/img/product-3.jpg')}}'
                                                 alt="..."></a>
                                         <div class="product-overlay">
                                             <ul class="mb-0 list-inline">
@@ -212,7 +212,7 @@
                                 <div class="product text-center">
                                     <div class="mb-3 position-relative">
                                         <div class="badge text-white badge-"></div><a class="d-block"
-                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('frontend/img/product-4.jpg')}}'
+                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('assets/frontend/img/product-4.jpg')}}'
                                                 alt="..."></a>
                                         <div class="product-overlay">
                                             <ul class="mb-0 list-inline">
@@ -236,7 +236,7 @@
                                 <div class="product text-center">
                                     <div class="mb-3 position-relative">
                                         <div class="badge text-white badge-info">Sale</div><a class="d-block"
-                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('frontend/img/product-5.jpg')}}'
+                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('assets/frontend/img/product-5.jpg')}}'
                                                 alt="..."></a>
                                         <div class="product-overlay">
                                             <ul class="mb-0 list-inline">
@@ -260,7 +260,7 @@
                                 <div class="product text-center">
                                     <div class="mb-3 position-relative">
                                         <div class="badge text-white badge-"></div><a class="d-block"
-                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('frontend/img/product-6.jpg')}}'
+                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('assets/frontend/img/product-6.jpg')}}'
                                                 alt="..."></a>
                                         <div class="product-overlay">
                                             <ul class="mb-0 list-inline">
@@ -284,7 +284,7 @@
                                 <div class="product text-center">
                                     <div class="mb-3 position-relative">
                                         <div class="badge text-white badge-"></div><a class="d-block"
-                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('frontend/img/product-7.jpg')}}'
+                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('assets/frontend/img/product-7.jpg')}}'
                                                 alt="..."></a>
                                         <div class="product-overlay">
                                             <ul class="mb-0 list-inline">
@@ -308,7 +308,7 @@
                                 <div class="product text-center">
                                     <div class="mb-3 position-relative">
                                         <div class="badge text-white badge-"></div><a class="d-block"
-                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('frontend/img/product-8.jpg')}}'
+                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('assets/frontend/img/product-8.jpg')}}'
                                                 alt="..."></a>
                                         <div class="product-overlay">
                                             <ul class="mb-0 list-inline">
@@ -332,7 +332,7 @@
                                 <div class="product text-center">
                                     <div class="mb-3 position-relative">
                                         <div class="badge text-white badge-danger">Sold</div><a class="d-block"
-                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('frontend/img/product-9.jpg')}}'
+                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('assets/frontend/img/product-9.jpg')}}'
                                                 alt="..."></a>
                                         <div class="product-overlay">
                                             <ul class="mb-0 list-inline">
@@ -356,7 +356,7 @@
                                 <div class="product text-center">
                                     <div class="mb-3 position-relative">
                                         <div class="badge text-white badge-primary">New</div><a class="d-block"
-                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('frontend/img/product-10.jpg')}}'
+                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('assets/frontend/img/product-10.jpg')}}'
                                                 alt="..."></a>
                                         <div class="product-overlay">
                                             <ul class="mb-0 list-inline">
@@ -380,7 +380,7 @@
                                 <div class="product text-center">
                                     <div class="mb-3 position-relative">
                                         <div class="badge text-white badge-"></div><a class="d-block"
-                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('frontend/img/product-11.jpg')}}'
+                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('assets/frontend/img/product-11.jpg')}}'
                                                 alt="..."></a>
                                         <div class="product-overlay">
                                             <ul class="mb-0 list-inline">
@@ -404,7 +404,7 @@
                                 <div class="product text-center">
                                     <div class="mb-3 position-relative">
                                         <div class="badge text-white badge-"></div><a class="d-block"
-                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('frontend/img/product-12.jpg')}}'
+                                            href="{{ route('frontend.product') }}"><img class="img-fluid w-100" src='{{ asset('assets/frontend/img/product-12.jpg')}}'
                                                 alt="..."></a>
                                         <div class="product-overlay">
                                             <ul class="mb-0 list-inline">
@@ -448,7 +448,7 @@
               <div class="modal-body p-0">
                   <div class="row align-items-stretch">
                       <div class="col-lg-6 p-lg-0"><a class="product-view d-block h-100 bg-cover bg-center"
-                              style="background: url({{ asset('frontend/img/product-5.jpg)') }}"
+                              style="background: url({{ asset('assets/frontend/img/product-5.jpg)') }}"
                               href="img/product-5.jpg" data-lightbox="productview"
                               title="Red digital smartwatch"></a><a class="d-none" href="img/product-5-alt-1.jpg"
                               title="Red digital smartwatch" data-lightbox="productview"></a><a class="d-none"

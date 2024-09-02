@@ -51,7 +51,7 @@ class Add extends Component
 
         if($this->image){
             $data['image']= $this->name.'.'.$this->image->extension();
-            $this->image->storeAs('admin/product', $this->name.'.'.$this->image->extension(),'public');
+            $this->image->storeAs('uploads/product', $this->name.'.'.$this->image->extension(),'public');
             $this->dispatch('refreshData')->to(Data::class);
         }
 

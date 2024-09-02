@@ -2,13 +2,22 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Frontend;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Auth::routes();
+
+Route::get('/', [Frontend\FrontendController::class, 'index'])->name('frontend.index');
+
+Route::get('/shop/{slug?}', [Frontend\FrontendController::class, 'shop'])->name('frontend.shop');
+Route::get('/shop/tags/{slug}', [Frontend\FrontendController::class, 'shop_tag'])->name('frontend.shop_tag');
+Route::get('/product/{slug?}', [Frontend\FrontendController::class, 'product'])->name('frontend.product');
+Route::get('/cart', [Frontend\FrontendController::class, 'cart'])->name('frontend.cart');
+Route::get('/wishlist', [Frontend\FrontendController::class, 'wishlist'])->name('frontend.wishlist');
+Route::get('/product', [Frontend\FrontendController::class, 'product'])->name('frontend.product');
 
 
-Route::middleware('guest')->group(function () {
+
+Route::middleware('guest')->prefix('admin')->group(function () {
     Route::view('login','admin.auth.login')->name('login');
 });
 
@@ -52,3 +61,7 @@ Route::middleware('auth','admin')->prefix('admin')->as('admin.')->group(function
 Route::middleware('auth','cashier')->prefix('sale')->group(function () {
     Route::view('/','sellers.sale.SaleCreate')->name('sale.create');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
